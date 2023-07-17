@@ -13,7 +13,8 @@ const plugin: FastifyPluginAsyncTypebox = async (fastify) => {
       },
     },
     async handler(req) {
-      return {};
+      // const data = graphql(req)
+      return {data: ''};
     },
   });
 };
